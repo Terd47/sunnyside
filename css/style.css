@@ -131,9 +131,9 @@ body{
 .text-1{
     font-size: 14px;
     color: hsl(210, 4%, 67%);
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
+    margin: 15px;
+    padding: 15px;
+    width: 90%;
     text-align: left;
     left: 50%;
 }
@@ -144,7 +144,7 @@ body{
     position: relative;
 }
 .prod-img{
-    width: 467px;
+    width: 300px;
     padding: 0px;
     margin: 0px;
     height: 90%;
@@ -154,21 +154,21 @@ body{
 .headline{
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 20%;
     color: antiquewhite;
     font-size: 90px;
     font-weight: 1000;
     font-family: 'Fraunces', serif;
 }
 .egg-img{
-    width: 950px;
+    width: 790px;
     height: 600px;
     background-image: url("../images/desktop/image-transform.jpg");
     background-repeat:round;
     background-attachment: scroll;
 }
 .glass-img{
-    width: 950px;
+    width: 790px;
     height: 600px;
     margin: 0px;
     padding: 0px;
@@ -180,17 +180,13 @@ body{
     background-image: url("../images/desktop/image-graphic-design.jpg");
     background-repeat:round;
     background-attachment: scroll;
-    width: 950px;
+    width: 790px;
 }
 .orange{
     background-image: url("../images/desktop/image-photography.jpg");
     background-repeat:round;
     background-attachment: scroll;
-    width: 950px;
-}
-
-@media ( min-width: 768px ) {
-    
+    width: 790px;
 }
 
 @media (max-width: 475px) {
