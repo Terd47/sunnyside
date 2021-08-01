@@ -1,0 +1,39 @@
+.service-header{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: antiquewhite;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Fraunces', serif;
+}
+.services{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex: 3;
+}
+.item{
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    background: scroll;
+    border-radius: 20px;
+    background-color: hsl(210, 4%, 67%);
+    text-align: center;
+}
+.item:hover{
+   background-color: hsl(51, 100%, 49%);
+}
+@media (max-width: 768px){
+
+    .service-header{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        color: antiquewhite;
+        font-size: 40px;
+        font-weight: 1000;
+        font-family: 'Fraunces', serif;
+    }
+}

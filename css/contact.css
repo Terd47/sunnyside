@@ -1,0 +1,25 @@
+.contact-header{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: antiquewhite;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Fraunces', serif;
+}
+.form-1{
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-header{
+        position: absolute;
+        top: 28%;
+        left: 20%;
+        color: antiquewhite;
+        font-size: 40px;
+        font-weight: 1000;
+        font-family: 'Fraunces', serif;
+    }
+}

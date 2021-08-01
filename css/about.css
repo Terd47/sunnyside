@@ -1,0 +1,27 @@
+.about-header{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: antiquewhite;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Fraunces', serif;
+}
+.statement{
+    color: hsl(210, 4%, 67%);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-header{
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        color: antiquewhite;
+        font-size: 0px;
+        font-weight: 1000;
+        font-family: 'Fraunces', serif;
+    }
+}

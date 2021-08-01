@@ -1,0 +1,314 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+.header{
+    background-image: url("../images/desktop/image-header.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+.brand{
+    color: beige !important;
+    font-size: 30px;
+}
+.nav-link{
+    color: beige !important; 
+}
+.contact{
+    background-color: white;
+    color: black!important;
+    border-radius: 20px;
+    font-weight: 1230px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.down{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    cursor: pointer;
+}
+.tile{
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+}
+.transform{
+  margin: 60px;
+  padding: 60px;
+  text-align: left;
+}
+.head{
+    font-weight: 900;
+    text-align: center;
+    font-size: 58px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text-btn{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 100px;
+    text-shadow: hsl(51, 100%, 49%) 1px 5px 1px;
+}
+.photography{
+    margin-top: 400px;
+    text-align: center;
+}
+.testimonial{
+    color: hsl(210, 4%, 67%);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 58px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.g-text{
+   color: hsl(167, 40%, 24%);
+}
+.g-text1{
+    color: hsl(167, 40%, 24%)!important;
+}
+.p-text{
+    color: hsl(198, 62%, 26%);
+}
+.p-text-1{
+    color: hsl(198, 62%, 26%);
+    font-size: 18px;
+}
+.message{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: hsl(213, 9%, 39%);
+}
+.author{
+    text-align: center;
+}
+.position{
+    color: hsl(210, 4%, 67%);
+}
+.client{
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+.footer{
+    background-color: #b7e4c7;
+}
+.company-name{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: hsl(168, 34%, 41%);
+}
+.footer-nav{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.link-name{
+    margin: 30px;
+    color: hsl(168, 34%, 41%);
+}
+.footer-social{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.nav-social{
+    margin-right: 30px;
+    margin-bottom: 80px;
+    cursor: pointer;
+
+}
+.text-1{
+    font-size: 14px;
+    color: hsl(210, 4%, 67%);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    text-align: left;
+    left: 50%;
+}
+.text-img{
+    border-radius: 50%;
+    width: 100px !important;
+    left: 40%;
+    position: relative;
+}
+.prod-img{
+    width: 467px;
+    padding: 0px;
+    margin: 0px;
+    height: 90%;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+}
+.headline{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: antiquewhite;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Fraunces', serif;
+}
+.egg-img{
+    width: 950px;
+    height: 600px;
+    background-image: url("../images/desktop/image-transform.jpg");
+    background-repeat:round;
+    background-attachment: scroll;
+}
+.glass-img{
+    width: 950px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/desktop//image-stand-out.jpg");
+    background-repeat:round;
+    background-attachment: scroll;
+}
+.berries{
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-repeat:round;
+    background-attachment: scroll;
+    width: 950px;
+}
+.orange{
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-repeat:round;
+    background-attachment: scroll;
+    width: 950px;
+}
+
+@media ( min-width: 768px ) {
+    
+}
+
+@media (max-width: 475px) {
+    .headline{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        color: antiquewhite;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: 'Fraunces', serif;
+        text-align: center;
+    }
+    .down{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+    }
+    .contact{
+        width: 30%;
+    }
+    .header{
+        height: 100vh;
+    }
+    .g-text{
+        color: hsl(167, 40%, 24%);
+     }
+     .g-text1{
+         color: hsl(167, 40%, 24%)!important;
+     }
+     .p-text{
+         color: hsl(198, 62%, 26%);
+     }
+     .p-text-1{
+         color: hsl(198, 62%, 26%);
+         font-size: 14px;
+     }
+    .testimonial{
+        color: hsl(210, 4%, 67%);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px;
+        font-weight: 900;
+        text-align: center;
+        font-size: 28px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .egg-img{
+        width: 360px;
+        height: 500px;
+        background-image: url("../images/desktop/image-transform.jpg");
+        background-repeat:round;
+        background-attachment: scroll;
+        float: left !important;
+    }
+    .link-name{
+        margin: 20px;
+        color: hsl(168, 34%, 41%);
+    }
+    .glass-img{
+        width: 360px;
+        height: 500px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("../images/desktop//image-stand-out.jpg");
+        background-repeat:round;
+        background-attachment: scroll;
+    }
+    .berries{
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+        background-repeat:round;
+        background-attachment: scroll;
+        width: 360px;
+        height: auto;
+    }
+    .orange{
+        background-image: url("../images/desktop/image-photography.jpg");
+        background-repeat:round;
+        background-attachment: scroll;
+        width: 360px;
+        height: auto;
+    }
+    .head{
+        font-weight: 1000;
+        text-align: center;
+        font-size: 28px;
+    }
+    .text-img{
+        border-radius: 50%;
+        width: 100px !important;
+        left: 40%;
+        position: relative;
+    }
+    .text-1{
+        font-size: 18px;
+        color: hsl(210, 4%, 67%);;
+        margin: 20px;
+        padding: 20px;
+        width: 70%;
+        text-align: left;
+        left: 50%;
+    }
+    .transform{
+        margin: 15px;
+        padding: 15px;
+        text-align: left;
+    }
+    .client{
+        margin-bottom: 60px;
+        padding-bottom: 60px;
+    }
+    .prod-img{
+        width: 180px;
+        padding: 0px;
+        margin: 0px;
+        height: 90%;
+        background-repeat:no-repeat;
+        background-attachment: scroll;
+    }
+}

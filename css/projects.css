@@ -1,0 +1,47 @@
+.project-header{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: antiquewhite;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Fraunces', serif;
+}
+.statement{
+    font-size: 18px;
+}
+.proj{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+}
+.project-img{
+    width: 467px;
+    padding: 0px;
+    margin: 10px;
+    height: 90%;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+}
+
+@media (max-width: 768px){
+    .project-img{
+        width: 467px;
+        padding: 0px;
+        margin: 10px;
+        height: 90%;
+        background-repeat:no-repeat;
+        background-attachment: scroll;
+    }
+    .project-header{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        color: antiquewhite;
+        font-size: 40px;
+        font-weight: 1000;
+        font-family: 'Fraunces', serif;
+    }
+}
